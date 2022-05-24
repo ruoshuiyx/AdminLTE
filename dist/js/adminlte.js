@@ -1192,7 +1192,7 @@
     var SELECTOR_TAB_PANE = SELECTOR_TAB_CONTENT + " .tab-pane";
     var SELECTOR_SIDEBAR_MENU_ITEM = '.main-sidebar .nav-item > a.nav-link';
     var SELECTOR_SIDEBAR_SEARCH_ITEM = '.sidebar-search-results .list-group-item';
-    var SELECTOR_HEADER_MENU_ITEM = '.main-header .nav-item a.nav-link';
+    var SELECTOR_HEADER_MENU_ITEM = '.main-header .nav-item a[target!=_blank].nav-link, .in-iframe';
     var SELECTOR_HEADER_DROPDOWN_ITEM = '.main-header a.dropdown-item';
     var CLASS_NAME_IFRAME_MODE$1 = 'iframe-mode';
     var CLASS_NAME_FULLSCREEN_MODE = 'iframe-mode-fullscreen';

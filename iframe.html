@@ -28,7 +28,13 @@
         <a href="index3.html" class="nav-link">Home</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="#" class="nav-link">Contact</a>
+        <a href="pages/examples/contacts.html" class="nav-link">Contact</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="pages/examples/contacts.html" target="_blank" class="nav-link">新窗口打开(虽然有nav-link但是有新标签打开)</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="pages/examples/contacts.html" class="in-iframe">iframe打开窗口</a>
       </li>
     </ul>
 
@@ -768,6 +774,10 @@
     <div class="tab-content">
       <div class="tab-empty">
         <h2 class="display-4">No tab selected!</h2>
+
+        <!--test start-->
+        <a href="http://siyucms.com" class="in-iframe">asdf</a>
+        <!-- test end-->
       </div>
       <div class="tab-loading">
         <div>
@@ -796,18 +806,20 @@
 <!-- jQuery -->
 <script src="plugins/jquery/jquery.min.js"></script>
 <!-- jQuery UI 1.11.4 -->
-<script src="plugins/jquery-ui/jquery-ui.min.js"></script>
+<!--<script src="plugins/jquery-ui/jquery-ui.min.js"></script>-->
 <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
-<script>
+<!--<script>
   $.widget.bridge('uibutton', $.ui.button)
-</script>
+</script>-->
 <!-- Bootstrap 4 -->
 <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- overlayScrollbars -->
 <script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
 <!-- AdminLTE App -->
-<script src="dist/js/adminlte.min.js"></script>
+<!--<script src="dist/js/adminlte.min.js"></script>-->
+<script src="dist/js/adminlte.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="dist/js/demo.js"></script>
+
 </body>
 </html>
